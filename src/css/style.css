@@ -1,0 +1,61 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@400;700&display=swap');
+
+body {
+    font-family: "Poppins", sans-serif;
+}
+
+.container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+}
+
+.question-section,
+.response-section {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    padding: 40px;
+    border-radius: 15px;
+    background-color: hsl(0, 100%, 50%);
+}
+
+.title {
+    text-transform: uppercase;
+    margin-bottom: 20px;
+    color: hsl(0, 0%, 100%);
+}
+
+.question-section .buttons {
+    display: flex;
+    gap: 30px;
+}
+
+.question-section button {
+    background-color: hsl(350, 97%, 74%);
+    color: hsl(0, 0%, 100%);
+    text-transform: uppercase;
+    font-weight: 700;
+    padding: 15px 30px;
+    cursor: pointer;
+    border-radius: 10px;
+    border: none;
+    transition: 0.3s ease-in;
+}
+
+.question-section button:hover {
+    background-color: hsla(350, 97%, 74%, 60%);
+}
+
+.relogin {
+    width: 20px;
+    position: absolute;
+    top: 97%;
+    left: 98%;
+}
+
+.none{
+    display: none;
+}
