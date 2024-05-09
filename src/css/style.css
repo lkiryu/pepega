@@ -42,7 +42,14 @@ body {
     cursor: pointer;
     border-radius: 10px;
     border: none;
+}
+
+.button-yes{
     transition: 0.3s ease-in;
+}
+
+.button-no{
+    transition: 0.1s ease-in;
 }
 
 .question-section button:hover {
