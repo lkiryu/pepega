@@ -57,10 +57,11 @@ body {
 }
 
 .relogin {
-    width: 20px;
     position: absolute;
+    width: 20px;
     top: 97%;
     left: 98%;
+    transition: 1s ease-in;
 }
 
 .none{
